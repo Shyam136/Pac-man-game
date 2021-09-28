@@ -1,0 +1,61 @@
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid whitesmoke;
+    background-color: whitesmoke; 
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    border: 3px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: green;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: rgb(2, 2, 134);
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+/* styling the ghosts */
+.blinky {
+    background-color: red;
+}
+
+.pinky {
+    background-color: pink;
+}
+
+.inky {
+    background-color: cyan;
+}
+
+.clyde {
+    background-color: orange;     
+}
+
+/* styling the pac-man */
+.pac-man {
+    background-color: #ffe737;
+    border-radius: 10px;
+}
+
+ 
+.scared-ghost {
+    background-color: purple;
+}
