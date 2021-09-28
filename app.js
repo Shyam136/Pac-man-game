@@ -1,4 +1,3 @@
-// commit
 document.addEventListener('DOMContentLoaded', () => {
 
   const scoreDisplay = document.getElementById('score')
